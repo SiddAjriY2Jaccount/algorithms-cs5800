@@ -11,6 +11,6 @@ Given an array holding $x_i$ and $d_i$, describe an algorithm computes the most 
 ![answer](./answer.png)
 
 ## Runtime
-$O(n^2)$
+O($n^2$)
 
 
