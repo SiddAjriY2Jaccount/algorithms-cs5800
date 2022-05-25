@@ -39,6 +39,8 @@ $ python3 flows.py gold gold.3.txt
 5 5 --> 4 5
 ```
 
+![gold bullion face image](./gold_bullion_img.png)
+
 Design an algorithm that takes such a specification as input and determines if the indicated squares in the design can be entirely covered with gold bullion bars. Note that gold bars can never be split in half. Each gold bar covers exactly two of the squares.
 
 The idea behind this algrothm is as follows:
