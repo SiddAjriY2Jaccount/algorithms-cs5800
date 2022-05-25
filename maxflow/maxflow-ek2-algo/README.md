@@ -14,9 +14,9 @@ This is a 3-part question wherein we write the following functions in the ```flo
 - After doing this until edges outgoing from source are saturated, compute maxflow as a summation of every flow that was pushed through each augmenting path.
 
 #### 2) Determine matching gold of bullion tiles using Maximal Bipartite Matching
-In the ruins of Pompeii one finds the House of the Tragic Poet which has a famous mosaic floor proclaiming visitors to ``Beware of the Dog." In Boston, a less tragic but wealthier poet has commissioned a mosaic using 1kg bars of solid gold, specifically the type CreditSuisse mints in the dimension 80mmx40mm.
+In the ruins of Pompeii one finds the House of the Tragic Poet which has a famous mosaic floor proclaiming visitors to "Beware of the Dog." In Boston, a less tragic but wealthier poet has commissioned a mosaic using 1kg bars of solid gold, specifically the type CreditSuisse mints in the dimension 80mmx40mm.
 
-The input will consist of a file that gives the coordinates of the squares on an imaginary grid that should be covered by goldbars. These coordinates will be in the range [1,2000] in both the x and y directions. The output should consists of a list of tiles, one per line. Each tile should be designated by one of its coordinates, followed by ‘–>’ followed by the second coordinate. The tiles can be presented in any order, as our autograder will ensure that the entire input is covered. If the input cannot be tiled, then your program should output ‘No solution exists’.
+The input will consist of a file that gives the coordinates of the squares on an imaginary grid that should be covered by goldbars. These coordinates will be in the range [1,2000] in both the x and y directions. The output should consists of a list of tiles, one per line. Each tile should be designated by one of its coordinates, followed by '–>' followed by the second coordinate. The tiles can be presented in any order, as our autograder will ensure that the entire input is covered. If the input cannot be tiled, then your program should output 'No solution exists'.
 
 An example input and output:
 ```
