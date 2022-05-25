@@ -66,7 +66,7 @@ $ python3 flows.py rounding 3.3.txt
 
 To solve this:
 - The algorithm should check if any row or column sums to a value that is not divisible by 10. If so, then there is no solution since it is not possible to round without changing that particular row/column sum and the program should output 'No solution exists'. If all rows and columns have sums that are divisible by 10, then the algorithm proceeds to use max flow to check if rounding is possible.
-- Then, construct a graph similar to the bipartite matching problem. Create vertices $r_1$, ..., $r_m$ representing a row of $A$ and vertices $c_1$, ..., $c_n$ representing a column of $A$. We have a directed edge from $r_i$ to $c_j$ if and only if $A[i][j]$ is not divisible by 10. The capacity of the edge (if it exists) is $c(r_i, c_j)$ = 10.
+- Then, construct a graph similar to the bipartite matching problem. Create vertices $$r_1$$, ..., $r_m$ representing a row of $A$ and vertices $c_1$, ..., $c_n$ representing a column of $A$. We have a directed edge from $r_i$ to $c_j$ if and only if $A[i][j]$ is not divisible by 10. The capacity of the edge (if it exists) is $c(r_i, c_j)$ = 10.
 - Additionally we add a source vertex $s$ and a sink vertex $t$. There is an edge from $s$ to every row vertex $r_i$ with capacity $c(s, r_i)$ = Sum of all $A[i][j]$ mod 10 i.e. sum of the remainders of entries in row $i$. There is also an edge from every column vertex $c_j$ to $t$ with capacity $c(c_j, t)$ = Sum of all $A[i][j]$ mod 10 i.e. sum of the remainders of entries in column $j$.
 - Refer the comments in the code for further explanation.
 
