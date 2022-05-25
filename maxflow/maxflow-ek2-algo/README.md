@@ -3,7 +3,7 @@
 ## How to run
 ```python flows.py <function-name> <input-file-name.txt>```
 
-where <function-name> can be ```gold``` or ```rounding``` and sample input files are provided in the ```examples``` folder.
+where ```<function-name>``` can be ```gold``` or ```rounding``` and sample input files are provided in the ```examples``` folder.
 
 ## Explanation
 This is a 3-part question wherein we write the following functions in the ```flows.py``` file.
