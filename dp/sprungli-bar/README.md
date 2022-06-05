@@ -8,9 +8,4 @@
 <br>
 ![explanation](./explanation-part-2.png)
 
-## Runtime
-O($nm$) <br>
-<br>
-![runtime](./runtime.png)
-
 
